@@ -38,18 +38,7 @@ const competitions = [
     grade: "SMP",
     icon: "🦸",
   },
-  {
-    name: "Digital Art",
-    slug: "digital-art",
-    description:
-      "Ekspresikan kreativitas melalui media digital. Buat karya seni original menggunakan teknik digital painting dan ilustrasi.",
-    participants: "",
-    duration: "",
-    prize: "",
-    deadline: "",
-    grade: "SMP",
-    icon: "🎭",
-  },
+  
   {
     name: "Esport ML",
     slug: "esport-ml",

@@ -26,7 +26,7 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <img
-              src="images/LOGO_STC.png" // Update with your logo path
+              src="images/LOGO_STC.svg" // Update with your logo path
               alt="STC Logo"
               className="w-8 h-8 rounded-lg object-cover"
             />

@@ -25,13 +25,6 @@ export default function Home() {
       icon: "🦸",
     },
     {
-      name: "Seni Digital",
-      slug: "digital-art",
-      description: "Ekspresikan kreativitas melalui media digital",
-      participants: "",
-      icon: "🎭",
-    },
-    {
       name: "Esport ML",
       slug: "esport-ml",
       description: "Kompetisi gaming Mobile Legends",
@@ -76,7 +69,7 @@ export default function Home() {
 
         <div className="text-center z-10 max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold text-white mb-6 text-balance">
-            Stibajra Technology Competition
+            STIBAJRA Technology Competition
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-white/80 mb-8 text-pretty">
             Opening the Portal Of Technology To Iluminate Creativity And

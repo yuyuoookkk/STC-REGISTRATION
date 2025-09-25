@@ -86,8 +86,13 @@
     @apply border-border outline-ring/50;
   }
   body {
-    /* Added glassmorphism background with gradient and backdrop effects */
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    /* Updated to use custom background image with subtle overlay */
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/STC BACKGROUND DARK2.png") center /
+      cover no-repeat fixed;
+
+    /* Fallback gradient if image doesn't load */
+    background-color: #667eea;
+
     min-height: 100vh;
     @apply text-foreground;
   }
