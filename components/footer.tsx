@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { MapPin, Mail, Phone, Instagram } from "lucide-react"
+import { MapPin, Mail, Phone, Instagram } from "lucide-react";
 
 export function Footer() {
   return (
@@ -16,7 +16,8 @@ export function Footer() {
               <span className="text-white font-bold text-lg">STC 2025</span>
             </div>
             <p className="text-white/70 text-sm leading-relaxed mb-4">
-              Subarja Technology Competition - Empowering the next generation of tech innovators.
+              Subarja Technology Competition - Empowering the next generation of
+              tech innovators.
             </p>
             <div className="flex items-center gap-2 text-white/60 text-sm">
               <MapPin className="w-4 h-4" />
@@ -29,27 +30,42 @@ export function Footer() {
             <h3 className="text-white font-semibold mb-4">Competition</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">
+                <a
+                  href="#"
+                  className="text-white/70 hover:text-white text-sm transition-colors"
+                >
                   Web Design
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">
+                <a
+                  href="#"
+                  className="text-white/70 hover:text-white text-sm transition-colors"
+                >
                   Design Poster
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">
+                <a
+                  href="#"
+                  className="text-white/70 hover:text-white text-sm transition-colors"
+                >
                   Speed Typing
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">
+                <a
+                  href="#"
+                  className="text-white/70 hover:text-white text-sm transition-colors"
+                >
                   Digital Art
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">
+                <a
+                  href="#"
+                  className="text-white/70 hover:text-white text-sm transition-colors"
+                >
                   Rumus Excel
                 </a>
               </li>
@@ -61,22 +77,34 @@ export function Footer() {
             <h3 className="text-white font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">
+                <a
+                  href="#"
+                  className="text-white/70 hover:text-white text-sm transition-colors"
+                >
                   Guidelines
-                </a>
+                </a> 
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">
+                <a
+                  href="#"
+                  className="text-white/70 hover:text-white text-sm transition-colors"
+                >
                   FAQ
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">
+                <a
+                  href="#"
+                  className="text-white/70 hover:text-white text-sm transition-colors"
+                >
                   Past Winners
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">
+                <a
+                  href="#"
+                  className="text-white/70 hover:text-white text-sm transition-colors"
+                >
                   Gallery
                 </a>
               </li>
@@ -98,24 +126,31 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://wa.me/6285338001840"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-white/70 hover:text-white text-sm transition-colors flex items-center gap-2"
                 >
                   <Phone className="w-4 h-4" />
-                  WhatsApp
+                  WhatsApp: +62 853-3800-1840 (Felicia)
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://wa.me/6281529023333"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/70 hover:text-white text-sm transition-colors flex items-center gap-2"
+                >
+                  <Phone className="w-4 h-4" />
+                  WhatsApp: +62 815-2902-3333 (Keischa)
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="text-white/70 hover:text-white text-sm transition-colors flex items-center gap-2"
+                  className="text-white/70 hover:text-white text-sm transition-colors"
                 >
-                  <Mail className="w-4 h-4" />
-                  Email
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-white/70 hover:text-white text-sm transition-colors">
                   Website
                 </a>
               </li>
@@ -125,10 +160,12 @@ export function Footer() {
 
         {/* Map Section */}
         <div className="mt-12 pt-8 border-t border-white/10">
-          <h3 className="text-white font-semibold mb-4 text-center">Lokasi Event</h3>
+          <h3 className="text-white font-semibold mb-4 text-center">
+            Lokasi Event
+          </h3>
           <div className="w-full h-64 rounded-lg overflow-hidden glass border border-white/20">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.2!2d115.1628!3d-8.7983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd244c13ee9d753%3A0x6c05042449b50f81!2sSMK%20TI%20Bali%20Global%20Jimbaran!5e0!3m2!1sen!2sid!4v1635123456789!5m2!1sen!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.9884726404885!2d115.17517497501599!3d-8.78715219126483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd24522d38bc181%3A0x2b7a93761cba8439!2sSMKTI%20Bali%20Global%20Jimbaran!5e0!3m2!1sen!2sid!4v1758799275096!5m2!1sen!2sid"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -142,9 +179,11 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-white/10 text-center">
-          <p className="text-white/60 text-sm">© 2025 SMK Ti Bali Global Jimbaran. All rights reserved.</p>
+          <p className="text-white/60 text-sm">
+            © 2025 SMK Ti Bali Global Jimbaran. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }

@@ -8,7 +8,6 @@ const competitions = [
   { name: "Desain Web", slug: "web-design" },
   { name: "Desain Poster", slug: "design-poster" },
   { name: "Desain Maskot", slug: "design-maskot" },
-  { name: "Seni Digital", slug: "digital-art" },
   { name: "Esport ML", slug: "esport-ml" },
   { name: "Esport FF", slug: "esport-ff" },
   { name: "Rumus Excel", slug: "rumus-excel" },

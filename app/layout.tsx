@@ -9,8 +9,8 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "STC - Saudi Technology Championship",
-  description: "Join the ultimate technology competition in Saudi Arabia",
+  title: "STC - STIBAJRA Tech Competition",
+  description: "Join the ultimate technology competition in STIBAJRA!",
   generator: "v0.app",
 }
 
